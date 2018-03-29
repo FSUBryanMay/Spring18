@@ -20,7 +20,7 @@ public class Program1{
         }
 
         if(Collections.binarySearch(wordsAsList, word1) >= 0 && Collections.binarySearch(wordsAsList, word2) >= 0){
-            int numberOfWordsBetween = Math.abs(Collections.binarySearch(wordsAsList, word1) - Collections.binarySearch(wordsAsList, word2));
+            int numberOfWordsBetween = Math.abs(Collections.binarySearch(wordsAsList, word1) - Collections.binarySearch(wordsAsList, word2)) - 1;
 
             System.out.println("There are " + numberOfWordsBetween + " words between " + word1 + " and " + word2);
         }
