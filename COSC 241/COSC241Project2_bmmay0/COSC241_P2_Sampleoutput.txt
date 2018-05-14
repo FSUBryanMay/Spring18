@@ -1,0 +1,27 @@
+Original Infix:		3 + 4 * 5
+Corresponding Postfix:	3 4 5 * +
+Evaluation Result:	= 23
+
+
+Original Infix:		( ( 3 + 4 ) ) * 5
+Corresponding Postfix:	3 4 + 5 *
+Evaluation Result:	= 35
+
+
+Original Infix:		( ( 3 + 4 ) * 5
+**Invalid expression**
+
+
+Original Infix:		3 * ( ( 4 + 5) % 6 ) - 7 / 8
+Corresponding Postfix:	3 4 5 + 6 % * 7 8 / -
+Evaluation Result:	= 9
+
+
+Original Infix:		3 * (( 4+ 5) % 6) - 7 / 8 *
+**Invalid expression**
+
+
+Original Infix:		3 * (( 4+ 5) % 6) - 7 / 88
+**Invalid expression**
+
+
